@@ -1054,6 +1054,25 @@ footer a {
     margin-bottom: 15px;
 }
 
+.popup-phone-text {
+    position: relative;
+    padding-left: 35px;
+    font-size: 16px;
+    line-height: 14px;
+    margin-bottom: 20px;
+}
+
+.popup-phone-text::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background: url(../img/attention.svg) center no-repeat;
+    background-size: contain;
+}
+
 .reg-text {
     text-align: center;
     font-size: 14px;
