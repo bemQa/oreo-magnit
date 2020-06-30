@@ -1196,7 +1196,7 @@ span.error {
 .input-field textarea.error,
 .input-field select.error + .select2-container .select2-selection--single {
     color: #D2311A;
-    border-color: #D2311A;
+    border: 2px solid #D2311A;
 }
 
 .input-field input.error[type="checkbox"] ~ .checkbox-text,
