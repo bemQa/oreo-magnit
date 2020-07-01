@@ -809,10 +809,10 @@ header {
     top: -10px;
     left: -15px;
     width: 146px;
-    height: 184px;
+    height: 260px;
     background: #173F80;
     border-radius: 15px;
-    padding: 40px 16px 10px;
+    padding: 40px 10px 10px 16px;
     z-index: 0;
 }
 
@@ -827,7 +827,7 @@ header {
     font-weight: normal;
     text-transform: none;
     text-decoration: underline;
-    margin: 6px 0;
+    margin: 15px 0;
 }
 
 .login-menu a:hover {
@@ -847,6 +847,7 @@ header {
     font-size: 14px;
     line-height: 1;
     color: #6DC7E4;
+    margin: 0;
 }
 
 .logout-link::after {
@@ -1383,6 +1384,7 @@ span.error {
     padding: 20px;
     background: url(../img/profile-bg.svg) center no-repeat;
     background-size: 884px 224px;
+    z-index: 1;
 }
 
 .profile-avatar {
@@ -1510,22 +1512,6 @@ span.error {
     justify-content: space-between;
 }
 
-.lk-title {
-    display: flex;
-    -ms-align-items: center;
-    align-items: center;
-    justify-content: center;
-    width: 607px;
-    height: 174px;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 39px;
-    text-transform: uppercase;
-    background: url(../img/lk-title-bg.png) center 0 no-repeat;
-    background-size: contain;
-    margin: auto;
-}
-
 .table-wrapper {
     max-width: 820px;
     width: 100%;
@@ -1538,6 +1524,7 @@ span.error {
 }
 
 .lk-table {
+    max-width: 560px;
     margin-bottom: 80px;
 }
 
@@ -1562,6 +1549,8 @@ table td {
 }
 
 .lk-table table td {
+    font-size: 24px;
+    line-height: 29px;
     text-align: center;
 }
 
@@ -1570,6 +1559,8 @@ table td {
     display: flex;
     -ms-align-items: center;
     align-items: center;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 .win-info {
@@ -2471,6 +2462,221 @@ table td {
     color: #FFF568;
 }
 
+.lk-page .container {
+    position: relative;
+}
+
+.lk-decor1 {
+    position: absolute;
+    top: -175px;
+    left: 0;
+    width: 142px;
+}
+
+.lk-decor2 {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    width: 191px;
+}
+
+.lk-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.lk-prizes {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    max-width: 884px;
+    width: 100%;
+    margin: 0 auto 20px;
+    z-index: 1;
+}
+
+.lk-prize {
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+    height: 80px;
+    padding: 17px 10px;
+    background: url(../img/lk-prize-bg.svg) center no-repeat;
+    background-size: contain;
+}
+
+.lk-prize1 {
+    padding: 17px 30px;
+}
+
+.lk-prize-text {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 21px;
+    color: #6DC7E4;
+}
+
+.lk-prize-num {
+    min-width: 60px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.lk-prize-cake {
+    max-width: 39px;
+    width: 100%;
+}
+
+.lk-prize-card {
+    max-width: 67px;
+    width: 100%;
+}
+
+.lk-text {
+    font-size: 24px;
+    line-height: 1.1;
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.lk-points-checks {
+    display: flex;
+    justify-content: space-between;
+    max-width: 884px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.lk-subtitle {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.lk-points {
+    max-width: 280px;
+    width: 100%;
+}
+
+.lk-point {
+    position: relative;
+    width: 280px;
+    height: 180px;
+    padding: 40px 15px 15px;
+    background: url(../img/lk-point-bg.svg) center no-repeat;
+    background-size: contain;
+    margin-bottom: 25px;
+}
+
+.lk-point3 {
+    height: 200px;
+    background: url(../img/lk-point3-bg.svg) center no-repeat;
+    background-size: contain;
+    margin-bottom: 0;
+}
+
+.lk-point-num {
+    position: absolute;
+    top: -16px;
+    left: 0;
+    right: 0;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 46px;
+    text-align: center;
+    color: #27629E;
+    width: 48px;
+    height: 46px;
+    margin: auto;
+    background: url(../img/step-num-bg.svg) center no-repeat;
+    background-size: contain;
+}
+
+.lk-point-text {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1;
+    text-align: center;
+}
+
+.promocode-copy {
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+    margin: 7px 0;
+}
+
+.promocode-link {
+    min-width: 100px;
+    width: auto;
+    height: 44px;
+    padding: 15px 10px;
+    background: url(../img/promocode-bg.svg) center no-repeat;
+    background-size: 100% 100%;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    color: #27629E;
+    margin-right: 5px;
+}
+
+.clipboard {
+    width: 36px;
+    height: 36px;
+    background: url(../img/copy-button.svg) center no-repeat;
+    background-size: contain;
+    margin: 0 3px;
+}
+
+.promocode-btn {
+    width: 36px;
+    height: 36px;
+    margin: 0 3px;
+}
+
+.lk-invites {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.lk-invites span {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.lk-point-img1 {
+    max-width: 191px;
+    width: 100%;
+    margin: 10px auto 0;
+}
+
+.lk-point-img2 {
+    max-width: 229px;
+    width: 100%;
+    margin: 10px auto 0;
+}
+
+.lk-checks {
+    max-width: 560px;
+    width: 100%;
+}
+
 @media (max-width: 1200px) {
     .action {
         width: 150px;
@@ -2685,7 +2891,7 @@ table td {
         background: #6DC7E4;
         width: 100%;
         height: auto;
-        margin: 30px auto 60px;
+        margin: 30px auto;
         padding: 22px 15px 22px 140px;
     }
 
@@ -2729,16 +2935,6 @@ table td {
         left: auto;
         right: 0;
         transform: rotate(-180deg);
-    }
-
-    .lk-title {
-        max-width: 355px;
-        width: 100%;
-        height: 70px;
-        line-height: 1;
-        background: url(../img/lk-title-bg-mob.svg) center 0 no-repeat;
-        background-size: contain;
-        margin-bottom: 40px;
     }
 
     .lk-table {
@@ -3130,14 +3326,90 @@ table td {
     .buy-block {
         margin-bottom: 165px;
     }
+
+    .lk-decor1 {
+        display: none;
+    }
+
+    .lk-decor2 {
+        top: 75px;
+    }
+
+    .lk-title {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 30px;
+    }
+
+    .lk-prizes {
+        max-width: 310px;
+        margin-bottom: 30px;
+    }
+
+    .lk-prize {
+        flex-direction: column;
+        position: relative;
+        width: 90px;
+        height: 120px;
+        padding: 29px 8px 14px;
+        background: url(../img/lk-prize-bg-mob.svg) center no-repeat;
+        background-size: contain;
+    }
+
+    .lk-prize1 {
+        padding: 14px 8px;
+    }
+
+    .lk-prize-text {
+        font-size: 14px;
+        line-height: 1;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .lk-prize-num {
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    .lk-prize-cake {
+        position: absolute;
+        top: -5px;
+        left: 0;
+        right: 0;
+        max-width: 22px;
+        margin: auto;
+    }
+
+    .lk-prize-card {
+        position: absolute;
+        top: -5px;
+        left: 0;
+        right: 0;
+        max-width: 31px;
+        margin: auto;
+    }
+
+    .lk-points-checks {
+        flex-direction: column;
+    }
+
+    .lk-checks {
+        order: -1;
+        margin-bottom: 50px;
+    }
+
+    .lk-points {
+        margin: auto;
+    }
+
+    .moderation {
+        font-size: 18px;
+        line-height: 22px;
+    }
 }
 
 @media (max-width: 370px) {
-    .lk-title {
-        height: 58px;
-        font-size: 28px;
-    }
-
     .product-img {
         width: 140px;
         height: 119px;

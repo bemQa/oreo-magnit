@@ -30,7 +30,6 @@
 						<a href="index.html" class="menu-link">Главная</a>
 						<a href="#!" class="menu-link" target="_blank">Правила</a>
 						<a href="product.html" class="menu-link">Продукт</a>
-						<a href="index.html#prizes" class="menu-link">Призы</a>
 						<a href="winners.html" class="menu-link">Победители</a>
 						<a href="faq.html" class="menu-link">Вопрос-ответ</a>
 						<a href="#!" class="btn menu-btn pop-op" data-popup="check-upload">
@@ -44,7 +43,8 @@
 						<div class="profile-menu">
 							<form class="login-menu">
 								<span>Выбери акцию:</span>
-								<a href="#!" class="active">OREO в сети «Пятёрочка»</a>
+								<a href="#!" class="active">OREO в сети «Магнит»</a>
+								<a href="#!">OREO в сети «Пятёрочка»</a>
 								<a href="#!">Собери коллекцию стаканов</a>
 								<a href="index.html" class="logout-link">Выйти</a>
 							</form>
@@ -86,12 +86,6 @@
 							<div class="profile-info-label">E-mail</div>
 							<div class="profile-info-text-mini">Anastas-zagorod@mail.ru</div>
 						</div>
-						<div class="profile-info">
-							<div class="profile-info-label">Твоя Выручай-Карта</div>
-							<!-- <div class="profile-info-text-mini card-5ka">1273-3754-2866-0000</div> -->
-							<a href="#!" class="profile-info-text-mini card-5ka card-5ka-link link pop-op" data-popup="reg-card">Добавить карту</a>
-							<div class="card-5ka-remark">На данную Выручай-карту будут начислены баллы в случае выигрыша</div>
-						</div>
 					</div>
 					<div class="share">
 						<div class="share-text">Рассказать <br>друзьям о проекте:</div>
@@ -103,227 +97,191 @@
 					</div>
 				</div>
 				<div class="container">
-					<div class="lk-title">Твои чеки и призы</div>
-					<div class="table-wrapper lk-table">
-						<table>
-							<thead>
-								<tr>
-									<th>Чек</th>
-									<th class="mobile-visible">
-										<div class="mob-prizes garant-prize">
-											<a href="#!" class="arrow-left prize-nav" data-nav="weekly-prize"></a>
-											<span>Гарантированный приз</span>
-											<a href="#!" class="arrow-right prize-nav" data-nav="daily-prize"></a>
-										</div>
-										<div class="mob-prizes daily-prize" style="display: none;">
-											<a href="#!" class="arrow-left prize-nav" data-nav="garant-prize"></a>
-											<span>Ежедневный приз</span>
-											<a href="#!" class="arrow-right prize-nav" data-nav="weekly-prize"></a>
-										</div>
-										<div class="mob-prizes weekly-prize" style="display: none;">
-											<a href="#!" class="arrow-left prize-nav" data-nav="daily-prize"></a>
-											<span>Еженедельный приз</span>
-											<a href="#!" class="arrow-right prize-nav" data-nav="garant-prize"></a>
-										</div>
-									</th>
-									<th class="desktop-visible">Гарантированный приз</th>
-									<th class="desktop-visible">Ежедневный приз</th>
-									<th class="desktop-visible">Еженедельный приз</th>
-								</tr>
-							</thead>
-							<tbody>
-								<!-- Если нет чеков, показывать это -->
-								<tr>
-									<td>
-										<img src="img/waiting.svg" alt="">
-									</td>
-									<td class="mobile-visible">
-										<img src="img/waiting.svg" alt="">
-									</td>
-									<td class="desktop-visible">
-										<img src="img/waiting.svg" alt="">
-									</td>
-									<td class="desktop-visible">
-										<img src="img/waiting.svg" alt="">
-									</td>
-									<td class="desktop-visible">
-										<img src="img/waiting.svg" alt="">
-									</td>
-								</tr>
-								<!--  -->
-								<tr>
-									<td>
-										<div class="check-info-wrapper">
-											<div class="check-preview"><img src="img/check.png" alt="Чек"></div>
-											<div class="check-info moderation">
-												10.07.2020 <br>
-												На модерации
-											</div>
-										</div>
-									</td>
-									<td class="mobile-visible">
-										<img src="img/waiting.svg" alt="">
-									</td>
-									<td class="desktop-visible">
-										<img src="img/waiting.svg" alt="">
-									</td>
-									<td class="desktop-visible">
-										<div class="moderation">Ожидай розыгрыша...</div>
-									</td>
-									<td class="desktop-visible">
-										<div class="moderation">Ожидай розыгрыша...</div>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<div class="check-info-wrapper">
-											<div class="check-preview"><img src="img/check.png" alt="Чек"></div>
-											<div class="check-info">
-												10.07.2020 <br>
-												Одобрен
-											</div>
-										</div>
-									</td>
-									<td class="mobile-visible">
-										<div class="win-info mob-prizes garant-prize">
-											<div class="win-img"><img src="img/prizes/prize1.png" alt=""></div><a href="#!" class="get-prize-link link pop-op" data-popup="get-prize">Как получить?</a>
-										</div>
-										<div class="win-info mob-prizes daily-prize" style="display: none;">
-											<div class="win-img"><img src="img/prizes/prize2.png" alt=""></div><a href="#!" class="get-prize-link link pop-op" data-popup="get-prize">Как получить?</a>
-										</div>
-										<div class="win-info mob-prizes weekly-prize" style="display: none;">
-											<div class="win-img"><img src="img/prizes/prize3.png" alt=""></div><a href="#!" class="get-prize-link link pop-op" data-popup="get-prize">Как получить?</a>
-										</div>
-									</td>
-									<td class="desktop-visible">
-										<div class="win-info">
-											<div class="win-img"><img src="img/prizes/prize1.png" alt=""></div><a href="#!" class="get-prize-link link pop-op" data-popup="get-prize">Как получить?</a>
-										</div>
-									</td>
-									<td class="desktop-visible">
-										<div class="win-info">
-											<div class="win-img"><img src="img/prizes/prize2.png" alt=""></div><a href="#!" class="get-prize-link link pop-op" data-popup="get-prize">Как получить?</a>
-										</div>
-									</td>
-									<td class="desktop-visible">
-										<div class="win-info">
-											<div class="win-img"><img src="img/prizes/prize3.png" alt=""></div><a href="#!" class="get-prize-link link pop-op" data-popup="get-prize">Как получить?</a>
-										</div>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<div class="check-info-wrapper">
-											<div class="check-preview"><img src="img/check.png" alt="Чек"></div>
-											<div class="check-info">
-												10.07.2020 <br>
-												Одобрен
-											</div>
-										</div>
-									</td>
-									<td class="mobile-visible">
-										<div class="win-info mob-prizes garant-prize">
-											<div class="win-img"><img src="img/prizes/prize1.png" alt=""></div><a href="#!" class="get-prize-link link pop-op" data-popup="get-prize">Как получить?</a>
-										</div>
-										<div class="win-info mob-prizes daily-prize" style="display: none;">
-											Увы, не в этот раз
-										</div>
-										<div class="win-info mob-prizes weekly-prize" style="display: none;">
-											Увы, не в этот раз
-										</div>
-									</td>
-									<td class="desktop-visible">
-										<div class="win-info">
-											<div class="win-img"><img src="img/prizes/prize1.png" alt=""></div><a href="#!" class="get-prize-link link pop-op" data-popup="get-prize">Как получить?</a>
-										</div>
-									</td>
-									<td class="desktop-visible">
-										Увы, не в этот раз
-									</td>
-									<td class="desktop-visible">
-										Увы, не в этот раз
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<div class="check-info-wrapper">
-											<div class="check-preview rejected"><img src="img/check.png" alt="Чек"></div>
-											<div class="check-info">
-												10.07.2020 <br>
-												<a href="#!" class="rejected link pop-op" data-popup="check-rejected">Отклонен</a>
-											</div>
-										</div>
-									</td>
-									<td class="mobile-visible">
-										<img src="img/no-prize.svg" alt="">
-									</td>
-									<td class="desktop-visible">
-										<img src="img/no-prize.svg" alt="">
-									</td>
-									<td class="desktop-visible">
-										<img src="img/no-prize.svg" alt="">
-									</td>
-									<td class="desktop-visible">
-										<img src="img/no-prize.svg" alt="">
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<div class="check-info-wrapper">
-											<div class="check-preview rejected"><img src="img/check.png" alt="Чек"></div>
-											<div class="check-info">
-												10.07.2020 <br>
-												<a href="#!" class="rejected link pop-op" data-popup="check-rejected">Отклонен</a>
-											</div>
-										</div>
-									</td>
-									<td class="mobile-visible">
-										<img src="img/no-prize.svg" alt="">
-									</td>
-									<td class="desktop-visible">
-										<img src="img/no-prize.svg" alt="">
-									</td>
-									<td class="desktop-visible">
-										<img src="img/no-prize.svg" alt="">
-									</td>
-									<td class="desktop-visible">
-										<img src="img/no-prize.svg" alt="">
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<div class="check-info-wrapper">
-											<div class="check-preview rejected"><img src="img/check.png" alt="Чек"></div>
-											<div class="check-info">
-												10.07.2020 <br>
-												<a href="#!" class="rejected link pop-op" data-popup="check-rejected">Отклонен</a>
-											</div>
-										</div>
-									</td>
-									<td class="mobile-visible">
-										<img src="img/no-prize.svg" alt="">
-									</td>
-									<td class="desktop-visible">
-										<img src="img/no-prize.svg" alt="">
-									</td>
-									<td class="desktop-visible">
-										<img src="img/no-prize.svg" alt="">
-									</td>
-									<td class="desktop-visible">
-										<img src="img/no-prize.svg" alt="">
-									</td>
-								</tr>
-							</tbody>
-						</table>
+					<img src="img/lk-decor1.svg" class="lk-decor1" alt="">
+					<img src="img/lk-decor2.svg" class="lk-decor2" alt="">
+					<div class="lk-title">Приз на этой неделе — <br class="mobile-visible">200 000 бонусов на карту «Магнит»</div>
+					<div class="lk-prizes">
+						<div class="lk-prize lk-prize1">
+							<div class="lk-prize-text">Баллы, <br class="mobile-visible">накопленные <br>за эту неделю:</div>
+							<div class="lk-prize-num">16</div>
+						</div>
+						<div class="lk-prize">
+							<div class="lk-prize-cake">
+								<img src="img/lk-prize-cake.png" alt="">
+							</div>
+							<div class="lk-prize-text">Твой % торта <br>на этой неделе:</div>
+							<div class="lk-prize-num">0.12%</div>
+						</div>
+						<div class="lk-prize">
+							<div class="lk-prize-card">
+								<img src="img/lk-prize-card.png" alt="">
+							</div>
+							<div class="lk-prize-text">Выигранные <br>бонусы:</div>
+							<div class="lk-prize-num">2390</div>
+						</div>
 					</div>
-					<a href="#!" class="btn pop-op" data-popup="check-upload">
-						<svg width="200" height="54" viewBox="0 0 200 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-						    <g filter="url(#filter1_d)">
-						        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.22033 4.13948C2.43666 10.8602 -1.67268 42.1107 8.52472 45.3567C26.8974 51.2052 131.733 45.373 185.656 46.3924C203.985 46.7396 201.082 4.41322 196.773 2.0395C189.197 -2.13186 94.0462 1.52064 66.0055 0.723953C42.3389 0.0518779 7.50715 -1.38215 5.22033 4.13948Z" fill="#FFF568" />
-						    </g>
-						</svg>
-						<span>Загрузи чеки</span>
-					</a>
+					<div class="lk-text">Не упусти шанс забрать большой кусок праздничного торта! <br>Регистрируй больше чеков и следи, как меняется сумма твоих бонусов.</div>
+					<div class="lk-points-checks">
+						<div class="lk-points">
+							<div class="lk-subtitle">Ещё больше баллов</div>
+							<div class="lk-point">
+								<div class="lk-point-num">+1</div>
+								<div class="lk-point-text">Делись промокодом с друзьями и получай 1 балл за каждого</div>
+								<div class="promocode-copy">
+					                <span id="promocode-link" class="promocode-link">wk26uet</span>
+					                <button class="clipboard" data-clipboard-target="#promocode-link"></button>
+					                <a href="#!" class="promocode-btn"><img src="img/vk-button.svg" alt=""></a>
+					                <a href="#!" class="promocode-btn"><img src="img/ok-button.svg" alt=""></a>
+					            </div>
+					            <div class="lk-invites">Друзей зарегистрировано: <span>3</span></div>
+							</div>
+							<div class="lk-point">
+								<div class="lk-point-num">+1</div>
+								<div class="lk-point-text">Покупай новинки от OREO и получай +1 балл за каждый продукт в чеке</div>
+								<div class="lk-point-img1">
+									<img src="img/lk-point-img1.png" alt="">
+								</div>
+							</div>
+							<div class="lk-point lk-point3">
+								<div class="lk-point-num">+1</div>
+								<div class="lk-point-text">Покупай продукты с OREO под разными товарными знаками и получай +1 балл за каждый продукт в чеке.</div>
+								<div class="lk-point-img2">
+									<img src="img/lk-point-img2.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="lk-checks">
+							<div class="lk-subtitle">Твои чеки и бонусы</div>
+							<div class="table-wrapper lk-table">
+								<table>
+									<thead>
+										<tr>
+											<th>Чек</th>
+											<th>Количество <br class="mobile-visible">баллов</th>
+											<th>Полученные <br class="mobile-visible">бонусы</th>
+										</tr>
+									</thead>
+									<tbody>
+										<!-- Если нет чеков, показывать это -->
+										<tr>
+											<td>
+												<img src="img/waiting.svg" alt="">
+											</td>
+											<td>
+												<img src="img/waiting.svg" alt="">
+											</td>
+											<td>
+												<img src="img/waiting.svg" alt="">
+											</td>
+										</tr>
+										<!--  -->
+										<tr>
+											<td>
+												<div class="check-info-wrapper">
+													<div class="check-preview"><img src="img/check.png" alt="Чек"></div>
+													<div class="check-info moderation">
+														10.07.2020 <br>
+														На модерации
+													</div>
+												</div>
+											</td>
+											<td>
+												<img src="img/waiting.svg" alt="">
+											</td>
+											<td>
+												<div class="moderation">Ожидай <br class="mobile-visible">розыгрыша...</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div class="check-info-wrapper">
+													<div class="check-preview"><img src="img/check.png" alt="Чек"></div>
+													<div class="check-info">
+														10.07.2020 <br>
+														Одобрен
+													</div>
+												</div>
+											</td>
+											<td>2</td>
+											<td>240</td>
+										</tr>
+										<tr>
+											<td>
+												<div class="check-info-wrapper">
+													<div class="check-preview rejected"><img src="img/check.png" alt="Чек"></div>
+													<div class="check-info">
+														10.07.2020 <br>
+														<a href="#!" class="rejected link pop-op" data-popup="check-rejected">Отклонен</a>
+													</div>
+												</div>
+											</td>
+											<td>
+												<img src="img/no-prize.svg" alt="">
+											</td>
+											<td>
+												<img src="img/no-prize.svg" alt="">
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div class="check-info-wrapper">
+													<div class="check-preview"><img src="img/check.png" alt="Чек"></div>
+													<div class="check-info moderation">
+														10.07.2020 <br>
+														На модерации
+													</div>
+												</div>
+											</td>
+											<td>
+												<img src="img/waiting.svg" alt="">
+											</td>
+											<td>
+												<div class="moderation">Ожидай <br class="mobile-visible">розыгрыша...</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div class="check-info-wrapper">
+													<div class="check-preview"><img src="img/check.png" alt="Чек"></div>
+													<div class="check-info">
+														10.07.2020 <br>
+														Одобрен
+													</div>
+												</div>
+											</td>
+											<td>2</td>
+											<td>240</td>
+										</tr>
+										<tr>
+											<td>
+												<div class="check-info-wrapper">
+													<div class="check-preview rejected"><img src="img/check.png" alt="Чек"></div>
+													<div class="check-info">
+														10.07.2020 <br>
+														<a href="#!" class="rejected link pop-op" data-popup="check-rejected">Отклонен</a>
+													</div>
+												</div>
+											</td>
+											<td>
+												<img src="img/no-prize.svg" alt="">
+											</td>
+											<td>
+												<img src="img/no-prize.svg" alt="">
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<a href="#!" class="btn pop-op" data-popup="check-upload">
+								<svg width="200" height="54" viewBox="0 0 200 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+								    <g filter="url(#filter1_d)">
+								        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.22033 4.13948C2.43666 10.8602 -1.67268 42.1107 8.52472 45.3567C26.8974 51.2052 131.733 45.373 185.656 46.3924C203.985 46.7396 201.082 4.41322 196.773 2.0395C189.197 -2.13186 94.0462 1.52064 66.0055 0.723953C42.3389 0.0518779 7.50715 -1.38215 5.22033 4.13948Z" fill="#FFF568" />
+								    </g>
+								</svg>
+								<span>Загрузи чеки</span>
+							</a>
+						</div>	
+					</div>
 				</div>
 			</section>
 		</div>
@@ -331,7 +289,7 @@
 			<div class="footer-inner">
 				<div class="footer-contacts">
 					<a href="tel:8-800-555-8000" class="support-phone">8-800-555-8000</a>
-					<a href="mail:5ka@oreo.ru" class="support-mail">5ka@oreo.ru</a>
+					<a href="mail:magnit@oreo.ru" class="support-mail">magnit@oreo.ru</a>
 				</div>
 				<div class="footer-nav">
 					<div class="mndlz-logo">
@@ -420,37 +378,6 @@
                 </div>
             </div>
 		</div>
-		<div id="reg-card" class="popup">
-			<div class="popup__wrap">
-				<a href="#!" class="close-popup js-close-popup">
-					<span>закрыть</span>
-					<svg width="15" height="15" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M11 1L1 11" stroke="#1A4384" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-						<path d="M1 1L11 11" stroke="#1A4384" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-					</svg>
-				</a>
-                <div class="popup-bg">
-                	<div class="popup__inner">
-	                	<div class="popup__title">Добавить карту</div>
-	                    <form class="popup-form">
-	                    	<div class="input-field">
-	                    		<input type="text" name="phone" class="card-mask" placeholder="Номер Выручай-карты" required>
-	                    	</div>
-	                    	<div class="btn-wrap">
-	                    		<button class="btn">
-	                    			<svg width="200" height="54" viewBox="0 0 200 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-									    <g filter="url(#filter1_d)">
-									        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.22033 4.13948C2.43666 10.8602 -1.67268 42.1107 8.52472 45.3567C26.8974 51.2052 131.733 45.373 185.656 46.3924C203.985 46.7396 201.082 4.41322 196.773 2.0395C189.197 -2.13186 94.0462 1.52064 66.0055 0.723953C42.3389 0.0518779 7.50715 -1.38215 5.22033 4.13948Z" fill="#FFF568" />
-									    </g>
-									</svg>
-									<span>Сохранить</span>
-	                    		</button>
-	                    	</div>
-	                    </form>
-	                </div>
-                </div>
-            </div>
-		</div>
 	</div>
 
 	<svg class="svg-filters">
@@ -481,5 +408,10 @@
 	<script src="libs/jquery.inputmask.min.js"></script>
 	<script src="libs/jquery.countdown.min.js"></script>
 	<script src="js/scripts.js"></script>
+
+	<script src="libs/clipboard.min.js"></script>
+	<script type="text/javascript">
+        new Clipboard('.clipboard');
+    </script>
 </body>
 </html>
