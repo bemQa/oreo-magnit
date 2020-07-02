@@ -1294,6 +1294,7 @@ span.error {
 .wrapper .main-page::before {
     height: 550px;
     background-size: 1020px 550px;
+    opacity: .8;
 }
 
 .btn {
