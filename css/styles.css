@@ -1291,6 +1291,11 @@ span.error {
     background-size: 1020px 1100px;
 }
 
+.wrapper .main-page::before {
+    height: 550px;
+    background-size: 1020px 550px;
+}
+
 .btn {
     display: flex;
     align-items: center;
@@ -2677,6 +2682,20 @@ table td {
     width: 100%;
 }
 
+.wrapper .products-page {
+    margin-bottom: 20px;
+}
+
+.all-products-text {
+    font-size: 21px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.all-products-text a {
+    color: #FFF568;
+}
+
 @media (max-width: 1200px) {
     .action {
         width: 150px;
@@ -2884,6 +2903,12 @@ table td {
 
     .wrapper section::before {
         display: none;
+    }
+
+    .wrapper .main-page::before {
+        display: block;
+        height: 520px;
+        background: radial-gradient(81.59% 55.68% at 49.83% 44.32%, rgba(131, 230, 239, 0.69) 0%, rgba(69, 142, 185, 0) 100%);
     }
 
     .profile-block {
@@ -3406,6 +3431,11 @@ table td {
     .moderation {
         font-size: 18px;
         line-height: 22px;
+    }
+
+    .all-products-text {
+        font-size: 16px;
+        line-height: 20px;
     }
 }
 
