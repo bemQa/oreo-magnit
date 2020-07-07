@@ -2270,6 +2270,10 @@ table td {
     opacity: .6;
 }
 
+.wrapper .cookie-page section::before {
+    display: none;
+}
+
 .cookie-page .container {
     position: relative;
 }
